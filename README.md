@@ -34,6 +34,10 @@ A MERN stack web application that helps users fetch Instagram posts, select vide
 
 ## Project Structure
 
+
+## Project Structure
+
+```text
 insta-youtube-automation/
 │
 ├── backend/
@@ -45,14 +49,26 @@ insta-youtube-automation/
 │   ├── services/
 │   ├── uploads/
 │   ├── server.js
-│   └── .env
+│   ├── package.json
+│   └── .env.example
 │
 ├── frontend/
-│   ├── src/
 │   ├── public/
-│   └── package.json
+│   ├── src/
+│   ├── package.json
+│   └── index.html
 │
+├── screenshots/
+│   ├── home.png
+│   ├── instagram-posts.png
+│   ├── video-selection.png
+│   ├── youtube-connected.png
+│   └── upload-history.png
+│
+├── .gitignore
 └── README.md
+```
+
 
 ## Installation
 
