@@ -37,6 +37,8 @@ A MERN stack web application that helps users fetch Instagram posts, select vide
 
 ## Project Structure
 
+## Project Structure
+
 ```text
 insta-youtube-automation/
 │
@@ -55,6 +57,18 @@ insta-youtube-automation/
 ├── frontend/
 │   ├── public/
 │   ├── src/
+│   │   ├── components/
+│   │   │   ├── Header.jsx
+│   │   │   ├── InstagramFetch.jsx
+│   │   │   ├── InstagramPosts.jsx
+│   │   │   ├── YouTubeConnection.jsx
+│   │   │   ├── ManualUpload.jsx
+│   │   │   └── UploadHistory.jsx
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   │
 │   ├── package.json
 │   └── index.html
 │
